@@ -1,0 +1,17 @@
+.bgColor{
+    background-color: #f2f2f2;
+}
+.row{
+width: 95%;
+margin: auto;
+}
+.Animition{
+    position: relative;
+    animation: mymove 4s infinite;
+}
+
+@keyframes mymove {
+    from {left: 0px; }
+    to {left: 75px;}
+
+  }
